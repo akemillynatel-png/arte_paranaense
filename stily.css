@@ -1,1 +1,16 @@
-
+body{
+    background-color: #060F33;
+    color: #A9B8F5;
+}
+header{
+    background-color: #0D1C54;
+    color: #9DB0FC;
+}
+section{
+    background-color: #0F1738;
+    color: #737C9E;
+}
+footer{
+    background-color: #ADBDFF;
+    color: #305CFF;
+}
