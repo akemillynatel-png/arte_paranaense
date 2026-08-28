@@ -24,7 +24,7 @@ nav{
     margin-top: 20px;
 }
 nav a {
-    color: white;
+    color: rgb(113, 60, 166);
     text-decoration: none;
     background-color: #9b4d83;
     padding: 10px 15px;
@@ -59,7 +59,7 @@ figcaption{
     margin-top: 8px;
 }
 card{
-    background-color: #f3d9fa;
+    background-color: #3d0b4b;
     padding: 15px;
     margin: 15px 0;
     border-left: 6px solid #6b2d5c;
@@ -70,7 +70,7 @@ card h3 {
 }
 footer {
     background-color: #222222;
-    color: white;
+    color: rgb(143, 28, 28);
     text-align: center;
     padding: 20px;
     margin-top: 30px;
