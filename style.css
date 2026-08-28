@@ -24,16 +24,16 @@ nav{
     margin-top: 20px;
 }
 nav a {
-    color: rgb(113, 60, 166);
+    color: rgb(106, 145, 255);
     text-decoration: none;
-    background-color: #9b4d83;
+    background-color: #556bc3;
     padding: 10px 15px;
     border-radius: 8px;
     margin: 5px;
     display: inline-block
 }
 nav a:hover{
-    background-color: #c77dff;
+    background-color: #9aa9fd;
 }
 main{
     width: 80%;
@@ -59,10 +59,10 @@ figcaption{
     margin-top: 8px;
 }
 card{
-    background-color: #3d0b4b;
+    background-color: #475575f8;
     padding: 15px;
     margin: 15px 0;
-    border-left: 6px solid #6b2d5c;
+    border-left: 6px solid #a0adf8;
     border-radius: 10px;
 }
 card h3 {
@@ -70,7 +70,7 @@ card h3 {
 }
 footer {
     background-color: #222222;
-    color: rgb(143, 28, 28);
+    color: rgb(212, 206, 250);
     text-align: center;
     padding: 20px;
     margin-top: 30px;
