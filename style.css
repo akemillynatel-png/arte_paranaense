@@ -1,5 +1,5 @@
-/*
-:root{--cor-fundo:rgb(226, 43, 195);
+
+:root{--cor-fundo:rgb(185, 185, 226);
      --cor-texto:rgb(63, 20, 220);
      --cor-principal: rgb(121, 100, 237);
      --cor-secundaria: #9aa9fd;
@@ -7,28 +7,28 @@
      --cor-superficial: white;
      --cor-rodape:;
      --cor-clara:#556bc3;
-     --cor-legendada:;
+     --cor-legenda:;
      
 }
-     */
+     
 
      .tema-escuro{
-        --tema-escuro:black;
+        --tema-escuro:#000000;
         --cor-texto: white;
         --cor-principal: blue;
-        --cor-superficie; black;
-        --cor-card: #2b0;
+        --cor-superficie; #000000;
+        --cor-card: #000000;
      }
 
 body{
-    background-color: #b8c3f5;
-    color: #060F33;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
     font-family: Arial, sans-serif;
     margin: 0;
 }
 header{
-    background-color: #8192d8;
-    color: #0D1C54;
+    background-color: var(--cor-principal);
+    color: var(--cor-clara);
     text-align: center;
     padding: 30px;
 }
@@ -36,7 +36,7 @@ h1 {
     font-size: 36px;
 }
 h2 {
-    color:#a9b4e2;
+    color:var(--cor-principal)
 }
 p {
     font-size: 18px;
@@ -47,23 +47,23 @@ nav{
     margin-top: 20px;
 }
 nav a {
-    color: rgb(106, 145, 255);
+    color: var(--cor-clara);
     text-decoration: none;
-    background-color: #556bc3;
+    background-color: var(--cor-secundaria);
     padding: 10px 15px;
     border-radius: 8px;
     margin: 5px;
     display: inline-block
 }
 nav a:hover{
-    background-color: #838ecc;
+    background-color: var(--cor-hover);
 }
 main{
     width: 80%;
     margin: auto;
 }
 section{
-    background-color: white;
+    background-color: var(--cor-superficie);
     margin: 20px;
     padding: 20px;
     border-radius: 12px;
@@ -78,14 +78,14 @@ img{
 figcaption{
     text-align: center;
     font-family: 14px;
-    color: #000000;
+    color: var(--cor-legenda)
     margin-top: 8px;
 }
 .card{
-    background-color: #475575f8;
+    background-color: var(--cor-card);
     padding: 15px;
     margin: 15px 0;
-    border-left: 6px solid #c6cefa;
+    border-left: 6px solid var(--cor-principal);
     border-radius: 10px;
     flex: 1 1 300px;
 }
@@ -93,22 +93,22 @@ figcaption{
     margin-top: 0;
 }
 footer {
-    background-color: #222222;
-    color: rgb(212, 206, 250);
+    background-color: var(--cor-rodape);
+    color: var(--cor-clara);
     text-align: center;
     padding: 20px;
     margin-top: 30px;
 }
 button{
-    background-color: #c0ccfa;
-    color: #0D1C54;
-    border: #b0bffc;
+    background-color: var(--cor-principal);
+    color: var(--cor-clara);
+    border: none;
     padding: 10px 15px;
     border-radius: 8px;
     cursor: pointer;
 }
 button:hover{
-    background-color: #899dee;
+    background-color: var(--cor-hover);
 }
 .curtir{
     display: block;
