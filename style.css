@@ -1,14 +1,14 @@
 
-/*
-:root{--cor-fundo:rgb(185, 185, 226);
-     --cor-texto:rgb(63, 20, 220);
-     --cor-principal: rgb(121, 100, 237);
-     --cor-secundaria: #9aa9fd;
-     --cor-card:;
+*
+:root{--cor-fundo:rgb(169, 221, 255);
+     --cor-texto:rgb(0, 0, 0);
+     --cor-principal: rgb(166, 200, 223);
+     --cor-secundaria: #3275ac;
+     --cor-card:rgb(207, 232, 255);
      --cor-superficial: white;
-     --cor-rodape:;
-     --cor-clara:#556bc3;
-     --cor-legenda:;
+     --cor-rodape:rgb(45, 45, 77);
+     --cor-clara:#e0e5f8;
+     --cor-legenda:black;
 }
 */
      
