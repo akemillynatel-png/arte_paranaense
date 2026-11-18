@@ -1,5 +1,5 @@
 
-*
+/*
 :root{--cor-fundo:rgb(255, 0, 221);
      --cor-texto:rgb(255, 0, 0);
      --cor-principal: rgba(29, 248, 0, 0.986);
@@ -12,7 +12,6 @@
 }
 */
      
-
      .tema-escuro{
         --tema-escuro:#000000;
         --cor-texto: white;
