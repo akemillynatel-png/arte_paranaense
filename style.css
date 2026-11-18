@@ -17,8 +17,8 @@
         --tema-escuro:#000000;
         --cor-texto: white;
         --cor-principal: blue;
-        --cor-superficie; #000000;
-        --cor-card: #000000;
+        --cor-superficie: #000000;
+        --cor-card: #000000 ;
      }
 
 body{
@@ -79,7 +79,7 @@ img{
 figcaption{
     text-align: center;
     font-family: 14px;
-    color: var(--cor-legenda)
+    color: var(--cor-legenda) ;
     margin-top: 8px;
 }
 .card{
