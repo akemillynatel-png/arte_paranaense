@@ -1,14 +1,14 @@
 
 *
-:root{--cor-fundo:rgb(169, 221, 255);
-     --cor-texto:rgb(0, 0, 0);
-     --cor-principal: rgb(166, 200, 223);
-     --cor-secundaria: #3275ac;
+:root{--cor-fundo:rgb(255, 0, 221);
+     --cor-texto:rgb(255, 0, 0);
+     --cor-principal: rgba(29, 248, 0, 0.986);
+     --cor-secundaria: #008cff;
      --cor-card:rgb(207, 232, 255);
-     --cor-superficial: white;
-     --cor-rodape:rgb(45, 45, 77);
-     --cor-clara:#e0e5f8;
-     --cor-legenda:black;
+     --cor-superficial: rgb(132, 0, 255);
+     --cor-rodape:rgb(208, 255, 0);
+     --cor-clara:#00c3ff81;
+     --cor-legenda:rgb(0, 255, 115);
 }
 */
      
